@@ -1,0 +1,23 @@
+'''import requests
+import json
+
+class AuthAdminsTests():
+
+    def test_login(self):
+        dist = {'admin_login[email]': 'iaroslav.antoshevskyi@mev.com', 'admin_login[passwordPlain]': 'qweqweqwe'}
+        x = requests.post('https://admin-api-mountain-trek-test.mev.com/api/1.0/admins/login', data=dist)
+        print x.status_code, x.json()
+
+    def test_forgot_pwd(self):
+        forgot_pwd = {'admin_forgot_password[email]': 'iaroslav.antoshevskyi@mev.com'}
+        y = requests.post('https://admin-api-mountain-trek-test.mev.com/api/1.0/admins/forgot-password', data=forgot_pwd)
+
+        print y.json()
+        print y.text
+
+
+test = AuthAdminsTests()
+test.test_login()
+test.test_forgot_pwd()
+test.test_forgot_pwd()'''
+
